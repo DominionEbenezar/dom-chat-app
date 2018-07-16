@@ -12,7 +12,7 @@ describe('isRealStriing', () =>{
         expect(res).toBe(false);
     });
     it('should allow string with non-space character', () =>{
-        var res = isRealString('  Dominion  ');
+        var res = isRealString(' D ');
         expect(res).toBe(true);
     });
 });
